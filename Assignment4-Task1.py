@@ -3,10 +3,9 @@
 import random
 
 print("Play with me! Guess a number between 0 and 20 and see if it's what I picked!")
-
 pc_number = random.randint(0,20)
 i = 0
-while i < 5:
+while True:
     user_number = int(input("Enter your guess:"))
     i += 1
     if user_number == pc_number:
